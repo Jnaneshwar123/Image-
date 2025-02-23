@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools Hub - Image & PDF Tools</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Hero Section */
+        .hero {
+            background: url('background.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+        }
+
+        /* Card Styling */
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card {
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tools Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Image Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PDF Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">All-in-One Image & PDF Tools</h1>
+            <p class="lead">Convert, Compress, Edit & More</p>
+            <a href="#tools" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Tools Section -->
+    <section id="tools" class="container my-5">
+        <h2 class="text-center mb-4">Our Tools</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image-tool.jpg" class="card-img-top" alt="Image Tools">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Image Tools</h5>
+                        <p class="card-text">Resize, Convert, Compress images easily.</p>
+                        <a href="#" class="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pdf-tool.jpg" class="card-img-top" alt="PDF Tools">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">PDF Tools</h5>
+                        <p class="card-text">Merge, Split, Convert, and Edit PDFs.</p>
+                        <a href="#" class="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="more-tools.jpg" class="card-img-top" alt="More Tools">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">More Tools</h5>
+                        <p class="card-text">Many more useful utilities for your files.</p>
+                        <a href="#" class="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2025 Tools Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
